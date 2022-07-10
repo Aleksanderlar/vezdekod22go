@@ -1,0 +1,16 @@
+###
+POST http://localhost:8181/add
+Content-Type: application/json
+
+{
+  "timeDuration": "2m10s",
+  "sync": true
+}
+
+###
+GET http://localhost:8181/time
+Content-Type: application/json
+
+###
+GET http://localhost:8181/schedule
+Content-Type: application/json
